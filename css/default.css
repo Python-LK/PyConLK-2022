@@ -101,7 +101,7 @@ input, select {
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.4;
   font-size: 18px;
   margin-top: 55px;
@@ -288,6 +288,10 @@ picture.bg-image img {
 @media all and (min-width: 900px) {
   body {
     margin-top: 75px;
+  }
+
+  p {
+    font-size: 18px;
   }
 
   h2 {
@@ -492,6 +496,64 @@ section {
   outline: none;
 }
 
+.agenda-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 45px;
+  position: relative;
+}
+.agenda-wrap:before {
+  content: "";
+  top: 0;
+  left: 14px;
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #dce3e9;
+}
+.agenda-wrap .timeline-item {
+  width: 100%;
+  font-size: 14px;
+  margin: 25px 0;
+  position: relative;
+}
+.agenda-wrap .timeline-item:before {
+  content: "";
+  position: absolute;
+  left: -37px;
+  top: 2px;
+  background-color: #dce3e9;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.agenda-wrap .timeline-item:first-child:before {
+  top: 0;
+}
+.agenda-wrap .label-item {
+  width: 100%;
+  font-size: 14px;
+  margin: 0;
+  position: relative;
+}
+.agenda-wrap .label-item:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -55px;
+  top: -10px;
+  background-color: #dce3e9;
+  border-radius: 10px;
+  padding: 2px 10px;
+  width: 30px;
+  text-align: center;
+}
 .agenda-wrap .agenda-item {
   padding: 20px;
   margin: 20px 0;
@@ -526,12 +588,6 @@ section {
 }
 .agenda-wrap .agenda-item p {
   margin: 0;
-}
-
-.codeofconduct .sub-title {
-  font-size: 24px;
-  font-weight: 800;
-  margin-top: 25px;
 }
 
 @media all and (min-width: 600px) {
@@ -622,6 +678,7 @@ section {
 
   .speakers .image-col {
     padding: 0 15px 30px;
+    margin-bottom: auto;
   }
 
   .location-info {
@@ -645,15 +702,6 @@ section {
   }
 
   .agenda-wrap {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
     -ms-justify-content: space-between;
