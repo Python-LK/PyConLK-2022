@@ -913,4 +913,6 @@ footer p {
   }
 }
 
+#about .row {align-items: flex-start;}
+
 /*# sourceMappingURL=default.css.map */
