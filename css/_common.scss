@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.4;
   font-size: 18px;
   margin-top: 55px;
@@ -26,7 +26,7 @@ h2 {
   line-height: 1.5;
 }
 
-p {
+p, ul {
   font-size: 16px;
   line-height: 32px;
   margin-bottom: 15px;
@@ -139,20 +139,6 @@ picture.bg-image img {
 
 .speaker-details {
   padding: 20px;
-
-  h4 {
-    color: #162736;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 24px;
-  }
-
-  small {
-    color: rgba(22,39,54,0.64);
-    font-size: 12px;
-    line-height: 24px;
-    margin-bottom: 15px;
-  }
 }
 
 .btn-link {
@@ -167,6 +153,18 @@ picture.bg-image img {
   }
 }
 
+.bg-01 .agenda-item {
+  background-color: $bgc1;
+}
+
+.bg-02 .agenda-item {
+  background-color: $bgc2;
+}
+
+.bg-03 .agenda-item {
+  background-color: $bgc3;
+}
+
 @media all and (min-width: 600px) {
   .inner-wrap {
     padding: 0 30px;
@@ -176,6 +174,10 @@ picture.bg-image img {
 @media all and (min-width: 900px) {
   body {
     margin-top: 75px;
+  }
+
+  p,ul {
+    font-size: 18px;
   }
 
   h2 {

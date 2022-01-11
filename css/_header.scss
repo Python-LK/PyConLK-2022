@@ -53,7 +53,7 @@ header {
   }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) {
   header {
     nav {
       padding: 60px 20px 30px;
@@ -106,14 +106,18 @@ header {
   }
 }
 
-@media all and (min-width: 901px) {
+@media all and (min-width: 1025px) {
   header {
+    a {
+      font-size: 14px;
+    }
+
     .inner-wrap {
       @include justify-content(space-between);
     }
 
     .logo-wrap {
-      width: 225px;
+      width: 185px;
     }
 
     nav {
@@ -122,6 +126,51 @@ header {
       ul {
         li {
           width: auto;
+          padding: 6px 15px;
+        }
+      }
+    }
+
+    .button {
+      padding: 5px 15px;
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  header {
+    a {
+      font-size: 18px;
+    }
+
+    .logo-wrap {
+      width: 225px;
+    }
+
+    nav {
+      ul {
+        li {
+          padding: 6px 20px;
+        }
+      }
+    }
+
+    .button {
+      padding: 10px 20px;
+    }
+  }
+}
+
+@media all and (min-width: 1441px) {
+  header {
+    a {
+      font-size: 18px;
+    }
+
+    nav {
+      ul {
+        li {
+          padding: 6px 20px;
         }
       }
     }
