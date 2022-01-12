@@ -699,6 +699,8 @@ section {
 
 .codeofconduct .sub-title {
   font-weight: 800;
+  color: #000;
+  margin: 20px 0 15px;
 }
 
 .anchor-link {
@@ -889,6 +891,10 @@ section {
   .privacy h2 {
     margin: 48px 0 20px;
   }
+
+  .codeofconduct .sub-title {
+    margin: 50px 0 20px;
+  }
 }
 @media all and (min-width: 1200px) {
   .inner-wrap {
@@ -1065,7 +1071,7 @@ header .mob-icon {
     padding: 5px 15px;
   }
 }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1280px) {
   header a {
     font-size: 18px;
   }
