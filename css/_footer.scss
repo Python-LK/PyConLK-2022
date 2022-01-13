@@ -8,6 +8,12 @@ footer {
     color: rgba(22,39,54,0.64);
     margin: 0;
   }
+
+  a {
+    color: #5e5e5e;
+    text-decoration: none;
+    font-size: 14px;
+  }
 }
 
 @media all and (min-width: 900px) {
