@@ -458,8 +458,7 @@ section {
 }
 
 .iframe-wrap {
-  height: 100vh;
-
+  height: 85vh;
 }
 
 @media all and (min-width: 600px) {
@@ -665,6 +664,10 @@ section {
     .sub-title {
       margin: 50px 0 20px;
     }
+  }
+
+  .iframe-wrap {
+    height: 100vh;
   }
 }
 
