@@ -123,6 +123,7 @@ picture.bg-image img {
 .row {
   @include flexbox;
   @include flex-wrap(wrap);
+  width: 100%;
 
   .col-2 {
     width: 100%;

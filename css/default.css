@@ -230,6 +230,7 @@ picture.bg-image img {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 100%;
 }
 .row .col-2 {
   width: 100%;
