@@ -14,7 +14,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4 {
+h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1;
   color: $gray;
@@ -79,9 +79,11 @@ picture.bg-image img {
 
   span {
     padding: 0 10px;
+
     &:first-child {
       font-weight: 600;
     }
+
     &:nth-child(2n) {
       font-weight: 800;
     }
@@ -104,6 +106,25 @@ picture.bg-image img {
 
   &:hover {
     opacity: .5;
+  }
+}
+
+.btn-abstract {
+  position: absolute;
+  right: 6px;
+  bottom: 5px;
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #4883b2;
+  border-radius: 5px;
+  text-decoration: none;
+  line-height: 1;
+  color: #fff;
+  font-weight: 600;
+  transition: all .3s;
+
+  &:hover {
+    opacity: .8;
   }
 }
 
@@ -177,7 +198,7 @@ picture.bg-image img {
     margin-top: 75px;
   }
 
-  p,ul {
+  p, ul {
     font-size: 18px;
   }
 
