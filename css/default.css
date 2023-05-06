@@ -435,11 +435,22 @@ section {
   line-height: 24px;
   margin-bottom: 15px;
 }
-.speakers .thumb-wrap {
+.speakers .thumb-wrap .speaker-img {
   max-width: 300px;
+  padding-bottom: 60%;
+  position: relative;
+  margin-bottom: 20px;
 }
 .speakers .thumb-wrap img {
-  margin-bottom: 20px;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  top: 0;
+  -webkit-transform: none;
+  transform: none;
+  width: 100%;
 }
 .speakers .speaker-popup {
   display: block !important;
