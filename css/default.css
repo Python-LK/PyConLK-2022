@@ -206,7 +206,7 @@ picture.bg-image img {
   margin-top: 20px;
 }
 
-.btn-abstract {
+.btn-abstract, .btn-video {
   position: absolute;
   right: 6px;
   bottom: 5px;
@@ -220,8 +220,13 @@ picture.bg-image img {
   font-weight: 600;
   transition: all 0.3s;
 }
-.btn-abstract:hover {
+.btn-abstract:hover, .btn-video:hover {
   opacity: 0.8;
+}
+
+.btn-video {
+  background-color: #880E4F;
+  right: 122px;
 }
 
 .social li {

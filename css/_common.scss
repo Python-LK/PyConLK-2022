@@ -132,6 +132,12 @@ picture.bg-image img {
   }
 }
 
+.btn-video {
+  @extend .btn-abstract;
+  background-color: #880E4F;
+  right: 122px;
+}
+
 .social {
   li {
     @include flexbox;
